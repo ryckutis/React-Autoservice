@@ -1,11 +1,12 @@
 import './App.css';
 import NavBar from './components/UI/atoms/NavBar/NavBar';
 import { Route, Routes } from 'react-router-dom';
+import LearnMoreBlock from './components/UI/atoms/LearnMoreBlock/LearnMoreBlock';
 
 function App() {
   return (
     <div>
-      <NavBar />
+      {/* <NavBar />
       <Routes>
         <Route path="/" />
         <Route path="/about" />
@@ -18,7 +19,8 @@ function App() {
           <Route path="blog2" />
         </Route>
         <Route path="/contact" />
-      </Routes>
+      </Routes> */}
+      <LearnMoreBlock />
     </div>
   );
 }
