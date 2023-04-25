@@ -1,13 +1,14 @@
 import './App.css';
 import NavBar from './components/UI/atoms/NavBar/NavBar';
 import { Route, Routes } from 'react-router-dom';
+import ContactUs from './components/UI/molecules/ContactUs/ContactUs';
 
 function App() {
   return (
     <div>
       <NavBar />
       <Routes>
-        <Route path="/" />
+        <Route path="/" element={<ContactUs />} />
         <Route path="/about" />
         <Route path="/services">
           <Route path="diagnostics" />
