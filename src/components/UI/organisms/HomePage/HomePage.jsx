@@ -6,6 +6,7 @@ import ContactUs from '../../molecules/ContactUs/ContactUs';
 import ProfessionalExperience from '../../atoms/ProfessionalExperience/ProfessionalExperience';
 import BrandsWeServe from '../../atoms/BrandsWeServe/BrandsWeServe';
 import Testimonials from '../../molecules/Testimonials/Testimonials';
+import FooterSection from '../../molecules/FooterSection/FooterSection';
 
 export default function HomePage() {
   return (
@@ -17,6 +18,7 @@ export default function HomePage() {
       <ProfessionalExperience />
       <BrandsWeServe />
       <Testimonials />
+      <FooterSection />
     </div>
   );
 }

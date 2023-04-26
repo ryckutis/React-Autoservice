@@ -7,12 +7,11 @@ import {
   StyledAiFillDollarCircle,
   StyledBsPersonCircle,
   StyledBsWrenchAdjustableCircle,
-  StyledDivOne,
-  StyledDivTwo,
+  StyledDiv,
   StyledButton,
   StyledHEadingOne,
   StyledHeadingTwo,
-  StyledATag,
+  StyledLink,
   StyledHiArrowLongRight,
 } from './ServiceForm.styled';
 
@@ -20,7 +19,7 @@ export default function ServiceForm() {
   return (
     <div>
       <Wrapper>
-        <StyledDivOne>
+        <StyledDiv>
           <StyledHEadingOne> We are taking car servicing seriously</StyledHEadingOne>
           <div>
             <StyledBsWrenchAdjustableCircle />
@@ -45,10 +44,10 @@ export default function ServiceForm() {
               Through True Rich Attended does no end it his mother since real had half every him.
             </StyledPar>
           </div>
-          <StyledATag href="#">Know more about us </StyledATag>
+          <StyledLink to="/about">Know more about us </StyledLink>
           <StyledHiArrowLongRight />
-        </StyledDivOne>
-        <StyledDivTwo>
+        </StyledDiv>
+        <StyledDiv>
           <StyledHeadingTwo>Get a quote for the car service</StyledHeadingTwo>
           <StyledInput type="text" name="" id="" placeholder="Enter your location" />
           <br />
@@ -58,7 +57,7 @@ export default function ServiceForm() {
           <br />
           <StyledInput type="text" name="" id="" placeholder="Your phone number" /> <br />
           <StyledButton>Get your quote</StyledButton>
-        </StyledDivTwo>
+        </StyledDiv>
       </Wrapper>
     </div>
   );

@@ -7,15 +7,13 @@ import {
   StyledNumber,
   StyledPar,
   StyledSection,
-  StyledTitle,
-  StyledBeforePar,
 } from './LearnMore.styled';
 
 export default function LearnMore() {
   return (
     <StyledMainDiv>
       <StyledSection>
-        <StyledTitle>We follow a clear process to help you out.</StyledTitle>
+        <h2>We follow a clear process to help you out.</h2>
         <StyledPar>
           Through True Rich Attended does no end it his mother since real had half every him case in
           packages enquire
@@ -27,18 +25,18 @@ export default function LearnMore() {
           <StyledNumber>01</StyledNumber>
           <div>
             <StyledName> Get a Quote</StyledName>
-            <StyledBeforePar>
+            <StyledPar>
               Through True Rich Attended does no end it his mother since real had half every
-            </StyledBeforePar>
+            </StyledPar>
           </div>
         </StyledFlexContainer>
         <StyledFlexContainer>
           <StyledNumber>02</StyledNumber>
           <div>
             <StyledName>Book an Appointment</StyledName>
-            <StyledBeforePar>
+            <StyledPar>
               Through True Rich Attended does no end it his mother since real had half every
-            </StyledBeforePar>
+            </StyledPar>
           </div>
         </StyledFlexContainer>
         <StyledFlexContainer>

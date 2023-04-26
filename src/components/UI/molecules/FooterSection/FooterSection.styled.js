@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { IoLogoFacebook, IoLogoTwitter, IoLogoInstagram, IoLogoLinkedin } from "react-icons/io";
+import styled from 'styled-components';
+import { IoLogoFacebook, IoLogoTwitter, IoLogoInstagram, IoLogoLinkedin } from 'react-icons/io';
 
 export const StyledMainDiv = styled.div`
   background: var(--primary-color);
@@ -26,8 +26,6 @@ export const StyledGetInTouchDiv = styled.div`
 `;
 
 export const StyledGetInTouchHeading = styled.h3`
-  font-family: "Manrope";
-  font-style: normal;
   font-weight: 700;
   line-height: 140%;
   letter-spacing: -0.03em;
@@ -79,8 +77,6 @@ export const StyledContactDiv = styled.div`
 `;
 
 export const StyledContactPar = styled.h6`
-  font-family: "Manrope";
-  font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 175%;
@@ -90,8 +86,6 @@ export const StyledContactPar = styled.h6`
 `;
 
 export const StyledContactHeading = styled.h5`
-  font-family: "Manrope";
-  font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
