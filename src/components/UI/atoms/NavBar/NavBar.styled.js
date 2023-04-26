@@ -17,7 +17,7 @@ export const StyledNav = styled.nav`
   align-items: center;
   a {
     text-decoration: none;
-    padding-left: 1rem;
+    padding-left: 2rem;
     color: var(--primary-color);
   }
 `;
