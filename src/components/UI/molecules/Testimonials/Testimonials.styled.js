@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const StyledWrapper = styled.div`
   background: var(--grey-background);
   width: 100%;
+  padding-bottom: 2rem;
 `;
 
 export const StyledTestimonialHeader = styled.header`
@@ -19,6 +20,8 @@ export const StyledTestimonialHeader = styled.header`
 
 export const StyledCardsTab = styled.div`
   display: flex;
+  width: 80%;
+  margin: auto;
   gap: 4rem;
 `;
 
@@ -43,6 +46,11 @@ export const StyledCardDiv = styled.div`
     margin-left: 1rem;
     h6 {
       margin: 0;
+    }
+
+    p {
+      margin: 0;
+      color: var(--secondary-color);
     }
   }
 `;

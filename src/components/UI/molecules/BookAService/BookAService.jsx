@@ -1,9 +1,10 @@
 import React from 'react';
-import carBattery from '../../../../assets/car-battery.png';
+import Mechanic from '../../../../assets/mechanic.png';
 
 import {
   StyledHEadingOne,
-  StyledButton,
+  StyledLinkWrap,
+  StyledLink,
   Wrapper,
   StyledDivOne,
   StyledDivTwo,
@@ -18,11 +19,10 @@ export default function BookAService() {
   return (
     <Wrapper>
       <StyledDivOne>
-        <StyledHEadingOne>
-          Get your vehicle service done online at one place
-        </StyledHEadingOne>
-        <StyledButton>Book a service</StyledButton>
-        <br />
+        <StyledHEadingOne>Get your vehicle service done online at one place</StyledHEadingOne>
+        <StyledLinkWrap>
+          <StyledLink to="/services">Book a service</StyledLink>
+        </StyledLinkWrap>
         <StyledBottomDiv>
           <StyledAiOutlineClockCircle />
           <div>
@@ -33,7 +33,7 @@ export default function BookAService() {
         </StyledBottomDiv>
       </StyledDivOne>
       <StyledDivTwo>
-        <StyledImage src={carBattery} alt='' />
+        <StyledImage src={Mechanic} alt="Mechanic working on a car" />
       </StyledDivTwo>
     </Wrapper>
   );

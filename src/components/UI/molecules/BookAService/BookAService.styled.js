@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { AiOutlineClockCircle } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 
 export const Wrapper = styled.section`
   display: flex;
@@ -14,12 +15,21 @@ export const StyledHEadingOne = styled.h1`
   font-size: 40px;
 `;
 
-export const StyledButton = styled.button`
-  background: #ff6433;
+export const StyledLinkWrap = styled.div`
+  margin: 3rem 0;
+`;
+
+export const StyledLink = styled(Link)`
+  color: var(--white-color);
+  background: var(--orange-color);
+  border: 1px solid var(--orange-color);
   border-radius: 12px;
   padding: 16px 40px;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+  text-decoration: none;
+
+  :hover {
+    cursor: pointer;
+  }
 `;
 export const StyledDivOne = styled.div`
   width: 50%;
@@ -28,26 +38,22 @@ export const StyledDivTwo = styled.div`
   width: 50%;
 `;
 
+const StylePar = `
+font-size: 16px;
+line-height: 28px;
+margin-left: 1rem;
+margin-top: 0;
+display: inline;
+`;
+
 export const StyledPar = styled.p`
-  font-family: 'Manrope';
-  font-style: normal;
-  font-size: 16px;
-  line-height: 28px;
+  ${StylePar}
   opacity: 60%;
-  margin-left: 1rem;
-  margin-top: 0;
-  display: inline;
 `;
 
 export const StyledPar2 = styled.p`
-  font-family: 'Manrope';
-  font-style: normal;
-  font-size: 16px;
-  line-height: 28px;
-  margin-left: 1rem;
-  margin-top: 0;
+  ${StylePar}
   color: black;
-  display: inline;
 `;
 export const StyledAiOutlineClockCircle = styled(AiOutlineClockCircle)`
   display: inline;
@@ -60,6 +66,6 @@ export const StyledBottomDiv = styled.div`
   align-items: center;
 `;
 export const StyledImage = styled.img`
-  width: 100%;
+  width: 75%;
   height: 100%;
 `;
