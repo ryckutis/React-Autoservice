@@ -1,7 +1,7 @@
 import './App.css';
 import NavBar from './components/UI/atoms/NavBar/NavBar';
 import { Route, Routes } from 'react-router-dom';
-import BookAService from './components/UI/atoms/LearnMoreBlock/LearnMoreBlock';
+import BookAService from './components/UI/atoms/BookAService/BookAService';
 
 function App() {
   return (
