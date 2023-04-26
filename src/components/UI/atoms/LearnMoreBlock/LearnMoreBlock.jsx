@@ -1,51 +1,91 @@
 import React from 'react';
-import { AiFillDollarCircle } from 'react-icons/ai';
-import { BsPersonCircle } from 'react-icons/bs';
-import { BsWrenchAdjustableCircle } from 'react-icons/bs';
-import { Wrapper, styledInput } from './LearnMoreBlock.styled';
+
+import {
+  Wrapper,
+  StyledInput,
+  StyledPar,
+  StyledH3,
+  StyledAiFillDollarCircle,
+  StyledBsPersonCircle,
+  StyledBsWrenchAdjustableCircle,
+  StyledDivOne,
+  StyledDivTwo,
+  StyledButton,
+  StyledHEadingOne,
+  StyledHeadingTwo,
+  StyledATag,
+  StyledHiArrowLongRight,
+} from './LearnMoreBlock.styled';
 
 export default function LearnMoreBlock() {
   return (
     <Wrapper>
-      <div>
-        <h2>We are taking car servicing seriously</h2>
+      <StyledDivOne>
+        <StyledHEadingOne>
+          {' '}
+          We are taking car servicing seriously
+        </StyledHEadingOne>
         <div>
-          <h3>Convenient service</h3>
-          <p>
-            <BsWrenchAdjustableCircle /> Through True Rich Attended does no end
-            it his mother since real had half every him.
-          </p>
+          <StyledBsWrenchAdjustableCircle />
+
+          <StyledH3> Convenient service</StyledH3>
+          <br />
+          <StyledPar>it his mother since real had half every him.</StyledPar>
         </div>
         <div>
-          <h3>Expert mechanics</h3>
-          <p>
-            <BsPersonCircle /> Through True Rich Attended does no end it his
-            mother since real had half every him.
-          </p>
-        </div>
-        <div>
-          <p>
-            <h3>Transparent pricing</h3>
-            <AiFillDollarCircle />
+          <StyledBsPersonCircle />
+          <StyledH3> Expert mechanics</StyledH3>
+          <br />
+          <StyledPar>
             Through True Rich Attended does no end it his mother since real had
             half every him.
-          </p>
+          </StyledPar>
         </div>
-        <a href='#'>Know more about us </a>
-      </div>
-      <form>
-        <h2>Get a quote for the car service</h2>
-        <input type='text' name='' id='' placeholder='Enter your location' />
+        <div>
+          <StyledAiFillDollarCircle />
+          <StyledH3>Transparent pricing</StyledH3>
+          <br />
+          <StyledPar>
+            Through True Rich Attended does no end it his mother since real had
+            half every him.
+          </StyledPar>
+        </div>
+        <StyledATag href='#'>Know more about us </StyledATag>
+        <StyledHiArrowLongRight />
+      </StyledDivOne>
+      <StyledDivTwo>
+        <StyledHeadingTwo>Get a quote for the car service</StyledHeadingTwo>
+        <StyledInput
+          type='text'
+          name=''
+          id=''
+          placeholder='Enter your location'
+        />
         <br />
-        <input type='text' name='' id='' placeholder='Enter your location' />
+        <StyledInput
+          type='text'
+          name=''
+          id=''
+          placeholder='Enter your location'
+        />
         <br />
-        <input type='text' name='' id='' placeholder='Enter your location' />
+        <StyledInput
+          type='text'
+          name=''
+          id=''
+          placeholder='Enter your location'
+        />
         <br />
-        <input type='text' name='' id='' placeholder='Your phone number' />
-        <button>Get your quote</button>
-      </form>
+        <StyledInput
+          type='text'
+          name=''
+          id=''
+          placeholder='Your phone number'
+        />{' '}
+        <br />
+        <StyledButton>Get your quote</StyledButton>
+      </StyledDivTwo>
     </Wrapper>
   );
 }
 
-//how no make top section styled with styled-components?
