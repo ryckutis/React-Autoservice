@@ -3,7 +3,7 @@ import {
   Wrapper,
   StyledInput,
   StyledPar,
-  StyledH3,
+  StyledH6,
   StyledAiFillDollarCircle,
   StyledBsPersonCircle,
   StyledBsWrenchAdjustableCircle,
@@ -25,13 +25,13 @@ export default function ServiceForm() {
           <div>
             <StyledBsWrenchAdjustableCircle />
 
-            <StyledH3> Convenient service</StyledH3>
+            <StyledH6> Convenient service</StyledH6>
             <br />
             <StyledPar>it his mother since real had half every him.</StyledPar>
           </div>
           <div>
             <StyledBsPersonCircle />
-            <StyledH3> Expert mechanics</StyledH3>
+            <StyledH6> Expert mechanics</StyledH6>
             <br />
             <StyledPar>
               Through True Rich Attended does no end it his mother since real had half every him.
@@ -39,7 +39,7 @@ export default function ServiceForm() {
           </div>
           <div>
             <StyledAiFillDollarCircle />
-            <StyledH3>Transparent pricing</StyledH3>
+            <StyledH6>Transparent pricing</StyledH6>
             <br />
             <StyledPar>
               Through True Rich Attended does no end it his mother since real had half every him.

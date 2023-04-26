@@ -28,7 +28,7 @@ export const StyledPar = styled.p`
   margin-left: 5rem;
   margin-top: 0;
 `;
-export const StyledH3 = styled.h3`
+export const StyledH6 = styled.h6`
   font-family: 'Manrope';
   font-style: normal;
   font-weight: 600;
@@ -63,12 +63,12 @@ export const StyledButton = styled.button`
   margin-top: 1rem;
 `;
 
-export const StyledHEadingOne = styled.h1`
+export const StyledHEadingOne = styled.h2`
   font-weight: 800;
   font-size: 40px;
   margin-left: 5rem;
 `;
-export const StyledHeadingTwo = styled.h1`
+export const StyledHeadingTwo = styled.h3`
   font-weight: 500;
   font-size: 40px;
   margin-right: 5rem;

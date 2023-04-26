@@ -9,7 +9,7 @@ export default function ContactUs() {
       <StyledImageDiv>
         <img src={WhiteCar} alt="The front of a white car" />
         <div>
-          <h1>Get in touch with us for your service related query</h1>
+          <h3>Get in touch with us for your service related query</h3>
           <StyledLink to="/contact">Contact Us</StyledLink>
         </div>
       </StyledImageDiv>

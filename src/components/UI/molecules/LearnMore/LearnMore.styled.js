@@ -13,7 +13,7 @@ export const StyledSection = styled.section`
   width: 30%;
 `;
 
-export const StyledTitle = styled.h1`
+export const StyledTitle = styled.h2`
   font-size: 2.8rem;
 `;
 
@@ -39,7 +39,7 @@ export const StyledButton = styled.button`
   border-radius: 10px;
 `;
 
-export const StyledNumber = styled.h3`
+export const StyledNumber = styled.h4`
   padding: 13px;
   height: 0%;
   background-color: #5f54ff;
@@ -48,7 +48,7 @@ export const StyledNumber = styled.h3`
   margin-right: 20px;
 `;
 
-export const StyledName = styled.h2`
+export const StyledName = styled.h3`
   margin-top: 30px;
 `;
 
