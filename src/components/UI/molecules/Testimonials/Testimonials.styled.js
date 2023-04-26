@@ -1,43 +1,49 @@
-import styled from "styled-components";
+import styled from 'styled-components';
+
+export const StyledWrapper = styled.div`
+  background: var(--grey-background);
+  width: 100%;
+`;
 
 export const StyledTestimonialHeader = styled.header`
-  background: #f2f2f2;
-  //   margin: auto;
-  h1 {
+  width: var(--primary-width);
+  margin: auto;
+  h3 {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 5rem;
     text-align: center;
-    margin: 0;
-    padding-top: 120px;
-    padding-left: 6rem;
-    padding-right: 6rem;
-    padding-bottom: 94px;
+    padding-bottom: 6rem;
   }
 `;
 
 export const StyledCardsTab = styled.div`
   display: flex;
-
-  align-items: center;
   gap: 4rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
 `;
 
 export const StyledCardsDiv = styled.div`
   display: flex;
   flex-direction: column;
-
   background: white;
   border: 0.5px solid grey;
-  /* max-width: 50%; */
-  padding: 1.5rem;
+  padding: 3rem;
 `;
 
 export const StyledCardDiv = styled.div`
   display: flex;
-  flex-direction: row;
+  align-items: center;
   img {
     width: 15%;
-    border-radius: 90%;
+    max-height: 60%;
+    border-radius: 50%;
+  }
+
+  div {
+    margin-left: 1rem;
+    h6 {
+      margin: 0;
+    }
   }
 `;
 

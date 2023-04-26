@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   StyledMainDiv,
   StyledMainInfoDiv,
@@ -13,7 +13,7 @@ import {
   StyledContactDiv,
   StyledContactPar,
   StyledContactHeading,
-} from "./FooterSection.styled";
+} from './FooterSection.styled';
 
 export default function FooterSection() {
   return (

@@ -4,52 +4,47 @@ export const StyledMainDiv = styled.div`
   display: flex;
   justify-content: space-around;
   width: 75%;
-  margin: 0 auto;
+  margin: 5rem auto;
 `;
 
 export const StyledSection = styled.section`
-  margin-top: 50px;
   padding: 0px 50px;
-  width: 30%;
-`;
-
-export const StyledTitle = styled.h2`
-  font-size: 2.8rem;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 50px;
 `;
 
 export const StyledPar = styled.p`
-  font-size: 0.9rem;
   width: 84%;
   font-weight: 400;
   color: grey;
   line-height: 1.5rem;
 `;
 
-export const StyledBeforePar = styled(StyledPar)`
-  border-left: 1px dashed red;
-  padding-left: 45px;
-  margin-left: -44px;
-`;
-
 export const StyledButton = styled.button`
-  background-color: #ff8a47;
+  background-color: var(--orange-color);
   border: none;
-  color: white;
+  color: var(--white-color);
   padding: 15px 25px;
   border-radius: 10px;
+
+  :hover {
+    cursor: pointer;
+  }
 `;
 
 export const StyledNumber = styled.h4`
-  padding: 13px;
-  height: 0%;
-  background-color: #5f54ff;
-  border-radius: 60%;
-  color: white;
-  margin-right: 20px;
+  width: 3rem;
+  line-height: 3rem;
+  padding: 1rem;
+  background-color: var(--purple-color);
+  border-radius: 50%;
+  color: var(--white-color);
+  margin-right: 2rem;
 `;
 
-export const StyledName = styled.h3`
-  margin-top: 30px;
+export const StyledName = styled.h5`
+  margin-bottom: 1rem;
 `;
 
 export const StyledFlexContainer = styled.div`
