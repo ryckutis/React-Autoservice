@@ -15,7 +15,7 @@ import {
   StyledHeadingTwo,
   StyledATag,
   StyledHiArrowLongRight,
-} from './LearnMoreBlock.styled';
+} from './BookAService.styled';
 
 export default function LearnMoreBlock() {
   return (

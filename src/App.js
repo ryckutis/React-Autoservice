@@ -1,7 +1,7 @@
 import './App.css';
 import NavBar from './components/UI/atoms/NavBar/NavBar';
 import { Route, Routes } from 'react-router-dom';
-import LearnMoreBlock from './components/UI/atoms/LearnMoreBlock/LearnMoreBlock';
+import BookAService from './components/UI/atoms/LearnMoreBlock/LearnMoreBlock';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
         </Route>
         <Route path="/contact" />
       </Routes> */}
-      <LearnMoreBlock />
+      <BookAService />
     </div>
   );
 }
