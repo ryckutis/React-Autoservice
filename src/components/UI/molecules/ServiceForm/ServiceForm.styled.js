@@ -15,8 +15,8 @@ export const Wrapper = styled.section`
 export const StyledInput = styled.input`
   width: 80%;
   height: 2.8rem;
-  radius: 2px;
-  margin 1.5px;
+  border-radius: 2px;
+  margin: 1.5px;
 `;
 
 export const StyledPar = styled.p`
@@ -50,10 +50,10 @@ export const StyledHiArrowLongRight = styled(HiArrowLongRight)`
 `;
 
 export const StyledDivOne = styled.div`
-width 50%
+  width: 50%;
 `;
 export const StyledDivTwo = styled.div`
-width 50%
+  width: 50%;
 `;
 
 export const StyledButton = styled.button`
