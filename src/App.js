@@ -1,6 +1,6 @@
-import './App.css';
-import NavBar from './components/UI/atoms/NavBar/NavBar';
-import { Route, Routes } from 'react-router-dom';
+import "./App.css";
+import NavBar from "./components/UI/atoms/NavBar/NavBar";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
