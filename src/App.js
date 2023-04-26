@@ -7,8 +7,8 @@ import BlogSingle from './components/UI/molecules/BlogSingle/BlogSingle';
 function App() {
   return (
     <div>
-      {/* <NavBar /> */}
-      {/* <Routes>
+      <NavBar />
+      <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/about' />
         <Route path='/services'>
@@ -20,8 +20,7 @@ function App() {
           <Route path='blog2' />
         </Route>
         <Route path='/contact' />
-      </Routes> */}
-      <BlogSingle />
+      </Routes>
     </div>
   );
 }
