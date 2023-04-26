@@ -27,7 +27,7 @@ export const StyledImageDiv = styled.div`
     left: 40%;
     top: 0;
 
-    h1 {
+    h3 {
       margin: 0 4rem;
       color: var(--white-color);
     }

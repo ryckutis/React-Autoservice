@@ -1,5 +1,4 @@
 import React from 'react';
-import NavBar from '../../atoms/NavBar/NavBar';
 import ServiceForm from '../../molecules/ServiceForm/ServiceForm';
 import LearnMore from '../../molecules/LearnMore/LearnMore';
 import WhatWeOffer from '../../molecules/WhatWeOffer/WhatWeOffer';
@@ -11,7 +10,6 @@ import Testimonials from '../../molecules/Testimonials/Testimonials';
 export default function HomePage() {
   return (
     <div>
-      <NavBar />
       <ServiceForm />
       <LearnMore />
       <WhatWeOffer />
