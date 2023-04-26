@@ -1,13 +1,11 @@
 import "./App.css";
 import NavBar from "./components/UI/atoms/NavBar/NavBar";
 import { Route, Routes } from "react-router-dom";
-import Testimonials from "./components/UI/atoms/Testimonials/Testimonials";
 
 function App() {
   return (
     <div>
       <NavBar />
-      <Testimonials />
       <Routes>
         <Route path="/" />
         <Route path="/about" />
