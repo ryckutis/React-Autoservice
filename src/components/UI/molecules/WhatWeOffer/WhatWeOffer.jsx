@@ -1,11 +1,11 @@
-import React from "react";
-import { MdElectricCar } from "react-icons/md";
-import { BsFillCarFrontFill } from "react-icons/bs";
-import { GoGear } from "react-icons/go";
-import { GiCarWheel, GiGearHammer } from "react-icons/gi";
-import { RiOilFill, RiShieldCheckFill } from "react-icons/ri";
-import { FaCarBattery } from "react-icons/fa";
-import WhatWeOfferCard from "./WhatWeOfferCard";
+import React from 'react';
+import { MdElectricCar } from 'react-icons/md';
+import { BsFillCarFrontFill } from 'react-icons/bs';
+import { GoGear } from 'react-icons/go';
+import { GiCarWheel, GiGearHammer } from 'react-icons/gi';
+import { RiOilFill, RiShieldCheckFill } from 'react-icons/ri';
+import { FaCarBattery } from 'react-icons/fa';
+import WhatWeOfferCard from './WhatWeOfferCard';
 
 import {
   StyledBackgroundDiv,
@@ -14,7 +14,7 @@ import {
   StyledMainDiv,
   StyledLink,
   StyledHiArrowLongRight,
-} from "./WhatWeOffer.styled";
+} from './WhatWeOffer.styled';
 
 export default function WhatWeOffer() {
   return (
@@ -26,47 +26,43 @@ export default function WhatWeOffer() {
         </StyledHeadingDiv>
         <StyledAnchorDiv>
           <WhatWeOfferCard
-            path={"/services/diagnostics"}
-            name={"Diagnostics"}
+            path={'/services/diagnostics'}
+            name={'Diagnostics'}
             icon={<MdElectricCar />}
           />
           <WhatWeOfferCard
-            path={"/services/enginerepair"}
-            name={"Engine Repair"}
+            path={'/services/engine-repair'}
+            name={'Engine Repair'}
             icon={<GoGear />}
           />
           <WhatWeOfferCard
-            path={"/services/wheelrepair"}
-            name={"Wheel Repair"}
+            path={'/services/wheel-repair'}
+            name={'Wheel Repair'}
             icon={<GiCarWheel />}
           />
+          <WhatWeOfferCard path={'/services/oil-filter'} name={'Oil Filter'} icon={<RiOilFill />} />
           <WhatWeOfferCard
-            path={"/services/oilfilter"}
-            name={"Oil Filter"}
-            icon={<RiOilFill />}
-          />
-          <WhatWeOfferCard
-            path={"/services/bodywork"}
-            name={"Body Work"}
+            path={'/services/body-work'}
+            name={'Body Work'}
             icon={<BsFillCarFrontFill />}
           />
           <WhatWeOfferCard
-            path={"/services/batteries"}
-            name={"Batteries"}
+            path={'/services/batteries'}
+            name={'Batteries'}
             icon={<FaCarBattery />}
           />
           <WhatWeOfferCard
-            path={"/services/insuranceclaim"}
-            name={"Insurance Claim"}
+            path={'/services/insurance-claim'}
+            name={'Insurance Claim'}
             icon={<RiShieldCheckFill />}
           />
           <WhatWeOfferCard
-            path={"/services/customservice"}
-            name={"Custom Service"}
+            path={'/services/custom-service'}
+            name={'Custom Service'}
             icon={<GiGearHammer />}
           />
         </StyledAnchorDiv>
-        <StyledLink to='/services'>
+        <StyledLink to="/services">
           Learn about services<span>{<StyledHiArrowLongRight />}</span>
         </StyledLink>
       </StyledMainDiv>
