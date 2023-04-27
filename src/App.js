@@ -6,7 +6,7 @@ import HomePage from './components/UI/organisms/HomePage/HomePage';
 function App() {
   return (
     <div>
-      <NavBar />
+      {/* <NavBar />
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/about' />
@@ -19,7 +19,7 @@ function App() {
           <Route path='blog2' />
         </Route>
         <Route path='/contact' />
-      </Routes>
+      </Routes> */}
     </div>
   );
 }
