@@ -44,6 +44,8 @@ export default function OtherServices() {
         name={'Custom Service'}
         icon={<GiGearHammer />}
       />
+      <OtherServicesCard path={'/services/car-wash'} name={'Car Wash'} icon={<MdElectricCar />} />
+      <OtherServicesCard path={'/services/ac-repair'} name={'AC Repair'} icon={<GoGear />} />
     </StyledOtherServicesDiv>
   );
 }

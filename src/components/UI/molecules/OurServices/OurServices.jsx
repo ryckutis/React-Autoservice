@@ -1,10 +1,5 @@
 import React from 'react';
-import {
-  StyledDiv,
-  StyledImg,
-  StyledLink,
-  StyledMainDiv,
-} from './OurServices.styled';
+import { StyledDiv, StyledImg, StyledLink, StyledMainDiv } from './OurServices.styled';
 
 export default function OurServices({ imgSrc, hText }) {
   return (
@@ -13,11 +8,10 @@ export default function OurServices({ imgSrc, hText }) {
       <StyledDiv>
         <h1>{hText}</h1>
         <p>
-          Through True Rich Attended does no end it his mother since real had
-          half every him case in packages enquire we up ecstatic unsatiable saw
-          Through True Rich Attended does{' '}
+          Through True Rich Attended does no end it his mother since real had half every him case in packages enquire we
+          up ecstatic unsatiable saw Through True Rich Attended does{' '}
         </p>
-        <StyledLink>Book a Service</StyledLink>
+        <StyledLink to="/contact">Book a Service</StyledLink>
       </StyledDiv>
     </StyledMainDiv>
   );

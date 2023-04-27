@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const StyledWrapperDiv = styled.div`
   margin: 0 auto;
@@ -53,6 +53,10 @@ export const StyledButton = styled.button`
   border-radius: 5px;
   border: none;
   max-width: 150px;
+
+  :hover {
+    cursor: pointer;
+  }
 `;
 
 export const StyledMapImage = styled.img`
@@ -72,4 +76,5 @@ export const StyledBackgroundImage = styled.img`
   width: 100%;
   height: auto;
   z-index: -1;
+  margin-bottom: -0.4rem;
 `;

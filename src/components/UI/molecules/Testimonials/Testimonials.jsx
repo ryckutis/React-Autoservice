@@ -5,7 +5,6 @@ import {
   StyledCardDiv,
   StyledCardsDiv,
   StyledCardsTab,
-  StyledTestimonialFooter,
 } from '../Testimonials/Testimonials.styled';
 
 export default function Testimonials() {
@@ -27,8 +26,8 @@ export default function Testimonials() {
             </StyledCardDiv>
             <div>
               <p>
-                I have got my car repaired at Finsweet many times before, they are good at what they
-                do. Not only did they repair my car in a short comprehensive look on all the working
+                I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did
+                they repair my car in a short comprehensive look on all the working
               </p>
             </div>
           </StyledCardsDiv>
@@ -45,20 +44,12 @@ export default function Testimonials() {
             </StyledCardDiv>
             <div>
               <p>
-                I have got my car repaired at Finsweet many times before, they are good at what they
-                do. Not only did they repair my car in a short comprehensive look on all the working
+                I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did
+                they repair my car in a short comprehensive look on all the working
               </p>
             </div>
           </StyledCardsDiv>
         </StyledCardsTab>
-        <StyledTestimonialFooter>
-          <div>
-            <p>-----</p>
-          </div>
-          <div>
-            <p>icon icon</p>
-          </div>
-        </StyledTestimonialFooter>
       </StyledTestimonialHeader>
     </StyledWrapper>
   );

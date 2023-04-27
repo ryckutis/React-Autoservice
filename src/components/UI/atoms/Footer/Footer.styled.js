@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const StyledDiv = styled.div`
   padding-top: 50px;
@@ -9,10 +10,14 @@ const StyledDiv = styled.div`
   color: #939191;
   align-items: center;
 `;
-const StyledA = styled.a`
+const StyledLink = styled(Link)`
   color: #ffffff;
   text-decoration: none;
   font-weight: 600;
+
+  :hover {
+    opacity: 0.6;
+  }
 `;
 
-export { StyledDiv, StyledA };
+export { StyledDiv, StyledLink };

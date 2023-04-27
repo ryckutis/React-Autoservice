@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
@@ -8,11 +9,19 @@ export const Wrapper = styled.div`
 `;
 
 export const StyledDiv = styled.div`
-  margin: 0 2rem;
+  margin: 2rem;
 `;
-export const StyledHeader = styled.h6`
+export const StyledHeader = styled(Link)`
   margin-top: 0;
   margin-bottom: 0;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color-primary);
+
+  :hover {
+    opacity: 0.6;
+  }
 `;
 
 export const StyledPicture = styled.img`

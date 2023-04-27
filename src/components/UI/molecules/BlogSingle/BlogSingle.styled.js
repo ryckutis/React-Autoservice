@@ -1,9 +1,12 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 75%;
-  margin: 0 7.5%;
-  padding-top: 5rem;
+  margin: 0 auto;
+  padding: 5rem 0;
 `;
 
 export const StyledHeader = styled.h3`
@@ -20,7 +23,6 @@ export const StyledPar2 = styled.p`
 `;
 export const StyledImage = styled.img`
   margin: 4.5rem;
-  padding-left: 6.5%;
 `;
 
 export const StyledBiggerImage = styled.img`

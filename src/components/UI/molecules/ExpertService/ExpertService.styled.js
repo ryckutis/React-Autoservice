@@ -13,6 +13,7 @@ export const StyledSection = styled.section`
   width: 40%;
   margin: 0 auto;
   margin-top: 50px;
+  margin-left: 0;
   height: 100%;
 `;
 

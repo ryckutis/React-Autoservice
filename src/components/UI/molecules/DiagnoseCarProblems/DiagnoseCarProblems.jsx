@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   StyledMainDiv,
   StyledMainInfoDiv,
@@ -6,10 +6,10 @@ import {
   StyledDiagnoseDiv,
   StyledDiagnoseHeading,
   StyledDiagnosePar,
-  StyledButton,
-} from "./DiagnoseCarProblems.styled";
-import tyres from "../../../../assets/tyres.png";
-import nissanSkyline from "../../../../assets/nissan-skyline-front.png";
+  StyledLink,
+} from './DiagnoseCarProblems.styled';
+import tyres from '../../../../assets/tyres.png';
+import nissanSkyline from '../../../../assets/nissan-skyline-front.png';
 
 export default function DiagnoseCarProblems() {
   return (
@@ -20,16 +20,13 @@ export default function DiagnoseCarProblems() {
           <img src={nissanSkyline} alt="Car is being repaired" />
         </StyledPictureDiv>
         <StyledDiagnoseDiv>
-          <StyledDiagnoseHeading>
-            Diagnose Car Problems If You Don't Know Much About Cars
-          </StyledDiagnoseHeading>
+          <StyledDiagnoseHeading>Diagnose Car Problems If You Don't Know Much About Cars</StyledDiagnoseHeading>
           <StyledDiagnosePar>
-            We provide a full range of front end mechanical repairs for all makes and models of
-            cars, no matter the cause. This includes everything from struts, shocks, and tie rod
-            ends to ball joints, springs everything from struts, shocks, and tie rod ends to ball
-            joints, springs
+            We provide a full range of front end mechanical repairs for all makes and models of cars, no matter the
+            cause. This includes everything from struts, shocks, and tie rod ends to ball joints, springs everything
+            from struts, shocks, and tie rod ends to ball joints, springs
           </StyledDiagnosePar>
-          <StyledButton>Book a Service</StyledButton>
+          <StyledLink to="/contact">Book a Service</StyledLink>
         </StyledDiagnoseDiv>
       </StyledMainInfoDiv>
     </StyledMainDiv>

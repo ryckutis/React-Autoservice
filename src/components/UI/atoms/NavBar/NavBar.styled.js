@@ -19,6 +19,10 @@ export const StyledNav = styled.nav`
     text-decoration: none;
     padding-left: 2rem;
     color: var(--primary-color);
+
+    :hover {
+      opacity: 0.6;
+    }
   }
 `;
 

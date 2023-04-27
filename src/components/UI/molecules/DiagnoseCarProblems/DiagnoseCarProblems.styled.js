@@ -1,4 +1,5 @@
-import styled from "styled-components";
+import { Link } from 'react-router-dom';
+import styled from 'styled-components';
 
 export const StyledMainDiv = styled.div`
   background: var(--white-color);
@@ -59,14 +60,16 @@ export const StyledDiagnosePar = styled.p`
   margin: 30px 0;
 `;
 
-export const StyledButton = styled.button`
+export const StyledLink = styled(Link)`
   background-color: var(--orange-color);
   border: none;
+  text-decoration: none;
   color: var(--white-color);
   padding: 15px 25px;
   border-radius: 10px;
 
   :hover {
     cursor: pointer;
+    opacity: 0.8;
   }
 `;

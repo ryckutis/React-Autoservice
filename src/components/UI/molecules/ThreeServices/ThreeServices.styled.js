@@ -37,19 +37,23 @@ const StyledBox = styled.div`
   }
 `;
 
+const BackgroundAbsolute = `
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+`;
+
 export const StyledFirstBox = styled(StyledBox)`
   background-image: url(${firstImg});
   position: relative;
 
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  ::before {
+    ${BackgroundAbsolute};
     background-color: #f85b29e5;
-    opacity: 0.9;
   }
 `;
 
@@ -57,15 +61,9 @@ export const StyledSecondBox = styled(StyledBox)`
   background-image: url(${secondImg});
   position: relative;
 
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  ::before {
+    ${BackgroundAbsolute};
     background-color: #000000e5;
-    opacity: 0.9;
   }
 `;
 
@@ -73,14 +71,8 @@ export const StyledThirdBox = styled(StyledBox)`
   background-image: url(${secondImg});
   position: relative;
 
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  ::before {
+    ${BackgroundAbsolute};
     background-color: #7443cae5;
-    opacity: 0.9;
   }
 `;

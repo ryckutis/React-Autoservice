@@ -21,7 +21,7 @@ export default function BookAService() {
       <StyledDivOne>
         <StyledHEadingOne>Get your vehicle service done online at one place</StyledHEadingOne>
         <StyledLinkWrap>
-          <StyledLink to="/services">Book a service</StyledLink>
+          <StyledLink to="/contact">Book a service</StyledLink>
         </StyledLinkWrap>
         <StyledBottomDiv>
           <StyledAiOutlineClockCircle />

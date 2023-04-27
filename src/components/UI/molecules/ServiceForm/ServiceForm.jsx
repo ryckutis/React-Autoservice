@@ -20,10 +20,7 @@ export default function ServiceForm() {
     <div>
       <Wrapper>
         <StyledDiv>
-          <StyledHEadingOne>
-            {' '}
-            We are taking car servicing seriously
-          </StyledHEadingOne>
+          <StyledHEadingOne>We are taking car servicing seriously</StyledHEadingOne>
           <div>
             <StyledBsWrenchAdjustableCircle />
 
@@ -35,55 +32,28 @@ export default function ServiceForm() {
             <StyledBsPersonCircle />
             <StyledH6> Expert mechanics</StyledH6>
             <br />
-            <StyledPar>
-              Through True Rich Attended does no end it his mother since real
-              had half every him.
-            </StyledPar>
+            <StyledPar>Through True Rich Attended does no end it his mother since real had half every him.</StyledPar>
           </div>
           <div>
             <StyledAiFillDollarCircle />
             <StyledH6>Transparent pricing</StyledH6>
             <br />
-            <StyledPar>
-              Through True Rich Attended does no end it his mother since real
-              had half every him.
-            </StyledPar>
+            <StyledPar>Through True Rich Attended does no end it his mother since real had half every him.</StyledPar>
           </div>
-          <StyledLink to='/about'>Know more about us </StyledLink>
+          <StyledLink to="/about">Know more about us </StyledLink>
           <StyledHiArrowLongRight />
         </StyledDiv>
         <StyledDiv>
           <StyledHeadingTwo>Get a quote for the car service</StyledHeadingTwo>
-          <form action='#'>
-            <StyledInput
-              type='text'
-              name=''
-              id=''
-              placeholder='Enter your location'
-            />
+          <form action="#">
+            <StyledInput type="text" name="" id="" placeholder="Enter your location" />
             <br />
-            <StyledInput
-              type='text'
-              name=''
-              id=''
-              placeholder='Enter your location'
-            />
+            <StyledInput type="text" name="" id="" placeholder="Enter your location" />
             <br />
-            <StyledInput
-              type='text'
-              name=''
-              id=''
-              placeholder='Enter your location'
-            />
+            <StyledInput type="text" name="" id="" placeholder="Enter your location" />
             <br />
-            <StyledInput
-              type='text'
-              name=''
-              id=''
-              placeholder='Your phone number'
-            />{' '}
-            <br />
-            <StyledButton>Get your quote</StyledButton>
+            <StyledInput type="text" name="" id="" placeholder="Your phone number" /> <br />
+            <StyledButton type="button">Get your quote</StyledButton>
           </form>
         </StyledDiv>
       </Wrapper>

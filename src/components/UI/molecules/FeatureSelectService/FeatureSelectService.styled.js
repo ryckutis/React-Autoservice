@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const StyledMainDiv = styled.div`
@@ -35,8 +36,10 @@ export const StyledParagraph = styled.p`
   opacity: 0.6;
 `;
 
-export const StyledLink = styled.a`
+export const StyledLink = styled(Link)`
   padding-left: 1rem;
+  color: var(--color-primary);
+  text-decoration: none;
   :hover {
     font-weight: 600;
     cursor: pointer;

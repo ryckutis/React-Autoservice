@@ -54,11 +54,3 @@ export const StyledCardDiv = styled.div`
     }
   }
 `;
-
-export const StyledTestimonialFooter = styled.footer`
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  padding-left: 5rem;
-  padding-right: 5rem;
-`;

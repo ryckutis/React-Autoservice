@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   StyledWrapperDiv,
   StyledForm,
@@ -8,9 +8,9 @@ import {
   StyledMapImage,
   StyledBackgroundDiv,
   StyledBackgroundImage,
-} from "./ContactField.styled";
-import map from "../../../../assets/contactField-mapimage.png";
-import backgroundImage from "../../../../assets/contactField-image.png";
+} from './ContactField.styled';
+import map from '../../../../assets/contactField-mapimage.png';
+import backgroundImage from '../../../../assets/contactField-image.png';
 
 export default function ContactField() {
   return (
@@ -23,7 +23,7 @@ export default function ContactField() {
             <input type="text" placeholder="Your Email" />
             <input type="text" placeholder="Select service type" />
             <input type="text" placeholder="Message" />
-            <StyledButton>Send Message</StyledButton>
+            <StyledButton type="button">Send Message</StyledButton>
           </StyledForm>
           <StyledContactDiv>
             <p>Address</p>
