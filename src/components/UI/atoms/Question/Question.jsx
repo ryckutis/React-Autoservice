@@ -1,14 +1,31 @@
-import React from 'react';
-import { StyledBtn, StyledDiv, StyledPar, Wrapper } from './Question.styled';
+import React, { useState } from 'react';
+import {
+  StyledBtn,
+  StyledDiv,
+  StyledPar,
+  StyledQ,
+  Wrapper,
+} from './Question.styled';
+import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai';
 
 export default function Question({ question, answer }) {
+  const [isExpanded, setIsExpanded] = useState(false);
+  const [divHeight, setDivHeight] = useState(112);
+
+  function toggleExpanded() {
+    setIsExpanded(!isExpanded);
+    setDivHeight(isExpanded ? 112 : 226);
+  }
+
   return (
-    <StyledDiv>
+    <StyledDiv style={{ height: `${divHeight}px` }}>
       <Wrapper>
-        <StyledPar>{question}</StyledPar>
-        <StyledBtn>+</StyledBtn>
+        <StyledQ>{question}</StyledQ>
+        <StyledBtn onClick={toggleExpanded} isExpanded={isExpanded}>
+          {isExpanded ? <AiOutlineMinus /> : <AiOutlinePlus />}
+        </StyledBtn>
       </Wrapper>
-      {/* <p>{answer}</p> */}
+      <StyledPar isExpanded={isExpanded}>{answer}</StyledPar>
     </StyledDiv>
   );
 }
