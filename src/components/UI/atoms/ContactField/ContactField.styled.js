@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const StyledWrapperDiv = styled.div`
   margin: 0 auto;
@@ -26,9 +26,17 @@ export const StyledForm = styled.form`
     background-color: #f2f2f2;
     border: none;
     border-radius: 3px;
+    ::placeholder {
+      color: black;
+    }
   }
-  input::placeholder {
-    color: black;
+  select {
+    display: block;
+    margin-bottom: 5px;
+    padding: 1.2rem;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 3px;
   }
 `;
 
@@ -36,11 +44,10 @@ export const StyledContactDiv = styled.div`
   flex: 1;
   p {
     margin: 0;
-    font-size: 0.8em;
   }
   h6 {
     margin: 0;
-    padding-bottom: 20px;
+    padding-bottom: 1em;
   }
 `;
 
@@ -49,13 +56,15 @@ export const StyledButton = styled.button`
   background-color: var(--orange-color);
   width: 30%;
   padding: 0.8rem;
+  margin-top: 1.5em;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 10px;
   border: none;
   max-width: 150px;
-
+  min-width: 110px;
   :hover {
     cursor: pointer;
+    opacity: 0.8;
   }
 `;
 
