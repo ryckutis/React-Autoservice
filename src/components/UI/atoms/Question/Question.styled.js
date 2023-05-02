@@ -48,11 +48,12 @@ export const StyledBtn = styled.button`
 export const StyledPar = styled.p`
   margin: 0;
   width: 701.26px;
-  height: 96px;
   font-weight: 500;
   font-size: 18px;
   line-height: 31.5px;
   color: var(--secondary-color);
-  display: ${(props) => (props.isExpanded ? 'block' : 'none')};
+  height: ${(props) => (props.isExpanded ? `${props.divHeight - 112}px` : 0)};
+  overflow: hidden;
   text-align: left;
+  transition: height 0.4s ease;
 `;

@@ -1,11 +1,5 @@
 import React, { useState } from 'react';
-import {
-  StyledBtn,
-  StyledDiv,
-  StyledPar,
-  StyledQ,
-  Wrapper,
-} from './Question.styled';
+import { StyledBtn, StyledDiv, StyledPar, StyledQ, Wrapper } from './Question.styled';
 import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai';
 
 export default function Question({ question, answer }) {
@@ -25,7 +19,9 @@ export default function Question({ question, answer }) {
           {isExpanded ? <AiOutlineMinus /> : <AiOutlinePlus />}
         </StyledBtn>
       </Wrapper>
-      <StyledPar isExpanded={isExpanded}>{answer}</StyledPar>
+      <StyledPar StyledPar isExpanded={isExpanded} divHeight={divHeight}>
+        {answer}
+      </StyledPar>
     </StyledDiv>
   );
 }

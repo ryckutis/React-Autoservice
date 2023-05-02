@@ -1,19 +1,23 @@
 import styled from 'styled-components';
 
+export const StyledWrapper = styled.div`
+  background-color: var(--grey-background);
+  padding: 3.5rem 0;
+`;
+
 const StyledDiv = styled.div`
   margin-top: 50px;
   width: var(--primary-width);
   margin: 2rem auto;
   display: flex;
   justify-content: space-evenly;
-  background: #f5f5f5;
 `;
 
 const StyledSection = styled.section`
   width: 50%;
-  margin-top: 2rem;
-  margin-left: 50px;
-  margin-right: 50px;
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: var(--white-color);
 `;
 
 export const StyledSecondarySection = styled.section`
